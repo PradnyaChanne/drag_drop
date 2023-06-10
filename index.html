@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Drag and drop</title>
+</head>
+<body>
+    <h1 class="heading"> Let's Accomplish One Thing each DAY</h1>
+    <div class="success-message" id="successMessage"></div>
+    <div class="container">
+        <div id="container1"> ToDo List 
+            <div id="list" draggable="true" ondragstart="drag(event)"><img src="pin.png" alt="" srcset="">Learning DSA</div>
+            <div id="list" draggable="true" ondragstart="drag(event)"><img src="pin.png" alt="" srcset="">Solving Leetcode</div>
+            <div id="list" draggable="true" ondragstart="drag(event)"><img src="pin.png" alt="" srcset="">Reading book</div>
+            <div id="list" draggable="true" ondragstart="drag(event)"><img src="pin.png" alt="" srcset="">Interview Prep</div>
+        </div>
+        <div id="container2" ondrop="drop(event)" ondragover="allowDrop(event)"> Completed </div>
+    </div>
+    <button id="resetButton">Reset</button>
+</body>
+</html>

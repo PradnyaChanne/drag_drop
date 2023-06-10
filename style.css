@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+body{
+    background-color: rgb(145, 223, 145);
+}
+.heading{
+    color: #385170;
+    text-align: center;
+    padding: 30px;
+}
+.container{
+    display: flex;
+    width: 100%;
+    min-height: 70vh;
+    margin: 0px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    
+}
+#container1 {
+    color: #385170;
+    width: 300px;
+    min-height: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #ececec;
+    padding: 10px;
+    padding-top: 20px;
+    border: 2px dashed black;
+    margin-right: 20px;
+}
+#container2{
+    color: #385170;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    min-height: 400px;
+    background-color: #ececec;
+    padding: 10px;
+    padding-top: 20px;
+    border:2px dashed black;
+}
+#list{
+    background: #f7fad1;
+    height: 60px;
+    margin: 40px;
+    color: #385170;
+    display: flex;
+    align-items: center;
+    cursor: grab;
+}
+
+#list img{
+    width: 25px;
+    max-width: 40px;
+    margin-left: 20px;
+}
+
+#resetButton{
+    display: flex;
+    color: #385170;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    border-radius: 15px;
+    margin: auto;
+    cursor: grab;
+}
+#successMessage {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    background-color: black;
+    color: green;
+    font-weight: bold;
+  }
+
